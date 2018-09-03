@@ -7,66 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CAC541A21254A67002B53E7 /* DLNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAC541821254A67002B53E7 /* DLNetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CAC542121254AE0002B53E7 /* DLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC542021254AE0002B53E7 /* DLString.swift */; };
-		0CAC542421254C9B002B53E7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAC542321254C9B002B53E7 /* Alamofire.framework */; };
-		0CADC839213CE6C700F39ADF /* DLUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CADC838213CE6C700F39ADF /* DLUtils.framework */; };
+		0CADC827213CDA9E00F39ADF /* DLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CADC825213CDA9E00F39ADF /* DLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CADC82F213CDB4900F39ADF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CADC82E213CDB4900F39ADF /* Alamofire.framework */; };
+		0CADC835213CE4FF00F39ADF /* DLUtilsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADC834213CE4FE00F39ADF /* DLUtilsObject.swift */; };
+		0CADC837213CE5B000F39ADF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CADC836213CE5B000F39ADF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CAC541521254A67002B53E7 /* DLNetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLNetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CAC541821254A67002B53E7 /* DLNetworkKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLNetworkKit.h; sourceTree = "<group>"; };
-		0CAC541921254A67002B53E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CAC542021254AE0002B53E7 /* DLString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLString.swift; sourceTree = "<group>"; };
-		0CAC542321254C9B002B53E7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		0CADC838213CE6C700F39ADF /* DLUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DLUtils.framework; path = Carthage/Build/iOS/DLUtils.framework; sourceTree = "<group>"; };
+		0CADC822213CDA9E00F39ADF /* DLUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CADC825213CDA9E00F39ADF /* DLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLUtils.h; sourceTree = "<group>"; };
+		0CADC826213CDA9E00F39ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CADC82E213CDB4900F39ADF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		0CADC834213CE4FE00F39ADF /* DLUtilsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLUtilsObject.swift; sourceTree = "<group>"; };
+		0CADC836213CE5B000F39ADF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CAC541121254A67002B53E7 /* Frameworks */ = {
+		0CADC81E213CDA9E00F39ADF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CADC839213CE6C700F39ADF /* DLUtils.framework in Frameworks */,
-				0CAC542421254C9B002B53E7 /* Alamofire.framework in Frameworks */,
+				0CADC82F213CDB4900F39ADF /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CAC540B21254A67002B53E7 = {
+		0CADC818213CDA9D00F39ADF = {
 			isa = PBXGroup;
 			children = (
-				0CAC541721254A67002B53E7 /* DLNetworkKit */,
-				0CAC541621254A67002B53E7 /* Products */,
-				0CAC542221254C9B002B53E7 /* Frameworks */,
+				0CADC836213CE5B000F39ADF /* README.md */,
+				0CADC824213CDA9E00F39ADF /* DLUtils */,
+				0CADC823213CDA9E00F39ADF /* Products */,
+				0CADC82D213CDB4800F39ADF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0CAC541621254A67002B53E7 /* Products */ = {
+		0CADC823213CDA9E00F39ADF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CAC541521254A67002B53E7 /* DLNetworkKit.framework */,
+				0CADC822213CDA9E00F39ADF /* DLUtils.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CAC541721254A67002B53E7 /* DLNetworkKit */ = {
+		0CADC824213CDA9E00F39ADF /* DLUtils */ = {
 			isa = PBXGroup;
 			children = (
-				0CAC541821254A67002B53E7 /* DLNetworkKit.h */,
-				0CAC541921254A67002B53E7 /* Info.plist */,
-				0CAC542021254AE0002B53E7 /* DLString.swift */,
+				0CADC825213CDA9E00F39ADF /* DLUtils.h */,
+				0CADC834213CE4FE00F39ADF /* DLUtilsObject.swift */,
+				0CADC826213CDA9E00F39ADF /* Info.plist */,
 			);
-			path = DLNetworkKit;
+			path = DLUtils;
 			sourceTree = "<group>";
 		};
-		0CAC542221254C9B002B53E7 /* Frameworks */ = {
+		0CADC82D213CDB4800F39ADF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CADC838213CE6C700F39ADF /* DLUtils.framework */,
-				0CAC542321254C9B002B53E7 /* Alamofire.framework */,
+				0CADC82E213CDB4900F39ADF /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,90 +73,91 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CAC541221254A67002B53E7 /* Headers */ = {
+		0CADC81F213CDA9E00F39ADF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAC541A21254A67002B53E7 /* DLNetworkKit.h in Headers */,
+				0CADC827213CDA9E00F39ADF /* DLUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CAC541421254A67002B53E7 /* DLNetworkKit */ = {
+		0CADC821213CDA9E00F39ADF /* DLUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CAC541D21254A67002B53E7 /* Build configuration list for PBXNativeTarget "DLNetworkKit" */;
+			buildConfigurationList = 0CADC82A213CDA9E00F39ADF /* Build configuration list for PBXNativeTarget "DLUtils" */;
 			buildPhases = (
-				0CAC541021254A67002B53E7 /* Sources */,
-				0CAC541121254A67002B53E7 /* Frameworks */,
-				0CAC541221254A67002B53E7 /* Headers */,
-				0CAC541321254A67002B53E7 /* Resources */,
+				0CADC81D213CDA9E00F39ADF /* Sources */,
+				0CADC81E213CDA9E00F39ADF /* Frameworks */,
+				0CADC81F213CDA9E00F39ADF /* Headers */,
+				0CADC820213CDA9E00F39ADF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DLNetworkKit;
-			productName = DLNetworkKit;
-			productReference = 0CAC541521254A67002B53E7 /* DLNetworkKit.framework */;
+			name = DLUtils;
+			productName = DLUtils;
+			productReference = 0CADC822213CDA9E00F39ADF /* DLUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0CAC540C21254A67002B53E7 /* Project object */ = {
+		0CADC819213CDA9D00F39ADF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = dl;
 				TargetAttributes = {
-					0CAC541421254A67002B53E7 = {
+					0CADC821213CDA9E00F39ADF = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
 					};
 				};
 			};
-			buildConfigurationList = 0CAC540F21254A67002B53E7 /* Build configuration list for PBXProject "DLNetworkKit" */;
+			buildConfigurationList = 0CADC81C213CDA9D00F39ADF /* Build configuration list for PBXProject "DLUtils" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0CAC540B21254A67002B53E7;
-			productRefGroup = 0CAC541621254A67002B53E7 /* Products */;
+			mainGroup = 0CADC818213CDA9D00F39ADF;
+			productRefGroup = 0CADC823213CDA9E00F39ADF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CAC541421254A67002B53E7 /* DLNetworkKit */,
+				0CADC821213CDA9E00F39ADF /* DLUtils */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CAC541321254A67002B53E7 /* Resources */ = {
+		0CADC820213CDA9E00F39ADF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CADC837213CE5B000F39ADF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CAC541021254A67002B53E7 /* Sources */ = {
+		0CADC81D213CDA9E00F39ADF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAC542121254AE0002B53E7 /* DLString.swift in Sources */,
+				0CADC835213CE4FF00F39ADF /* DLUtilsObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0CAC541B21254A67002B53E7 /* Debug */ = {
+		0CADC828213CDA9E00F39ADF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		0CAC541C21254A67002B53E7 /* Release */ = {
+		0CADC829213CDA9E00F39ADF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +277,7 @@
 			};
 			name = Release;
 		};
-		0CAC541E21254A67002B53E7 /* Debug */ = {
+		0CADC82B213CDA9E00F39ADF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -292,15 +292,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = DLNetworkKit/Info.plist;
+				INFOPLIST_FILE = DLUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dl.DLNetworkKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.DLUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -309,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		0CAC541F21254A67002B53E7 /* Release */ = {
+		0CADC82C213CDA9E00F39ADF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -324,15 +324,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = DLNetworkKit/Info.plist;
+				INFOPLIST_FILE = DLUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dl.DLNetworkKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.DLUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -343,25 +343,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CAC540F21254A67002B53E7 /* Build configuration list for PBXProject "DLNetworkKit" */ = {
+		0CADC81C213CDA9D00F39ADF /* Build configuration list for PBXProject "DLUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CAC541B21254A67002B53E7 /* Debug */,
-				0CAC541C21254A67002B53E7 /* Release */,
+				0CADC828213CDA9E00F39ADF /* Debug */,
+				0CADC829213CDA9E00F39ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CAC541D21254A67002B53E7 /* Build configuration list for PBXNativeTarget "DLNetworkKit" */ = {
+		0CADC82A213CDA9E00F39ADF /* Build configuration list for PBXNativeTarget "DLUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CAC541E21254A67002B53E7 /* Debug */,
-				0CAC541F21254A67002B53E7 /* Release */,
+				0CADC82B213CDA9E00F39ADF /* Debug */,
+				0CADC82C213CDA9E00F39ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0CAC540C21254A67002B53E7 /* Project object */;
+	rootObject = 0CADC819213CDA9D00F39ADF /* Project object */;
 }

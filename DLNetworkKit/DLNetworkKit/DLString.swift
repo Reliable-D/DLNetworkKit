@@ -7,11 +7,13 @@
 //
 
 import Foundation
+import DLUtils
 import Alamofire
 
 extension String {
-    public func request() -> Alamofire.DataRequest{
-        return Alamofire.request(self)
+    public func request() -> Void {
+        let a: DLUtilsObject = DLUtilsObject()
+        a.request(url: self)
     }
 }
 
